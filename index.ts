@@ -142,7 +142,7 @@ function processNo(ctx: TelegrafTypes.ContextMessageUpdate) {
 const bot = new Telegraf(config.botToken);
 
 bot.start((ctx) => {
-  new CronJob(DEBUG_CALLBACK_FREQUENCY, () => {
+  new CronJob(CALLBACK_FREQUENCY, () => {
     // Only necessary for debugging
     if (!state.searching) {
       sendMessageToLongestSince(ctx)
