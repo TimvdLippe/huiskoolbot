@@ -1,0 +1,11 @@
+{
+  "botToken": "Your Telegram bot token here.",
+  "members": [
+    {
+      "username": "Your username here."
+    },
+    {
+      "username": "Another username here."
+    }
+  ]
+}
